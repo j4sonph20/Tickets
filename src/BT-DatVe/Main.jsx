@@ -25,7 +25,12 @@ export default function Main() {
         justifyContent: "center",
       }}
     >
-      <h1 className="text-center text-white py-3">MOVIE SEATS</h1>
+      <h1
+        className="text-center text-white py-3"
+        style={{ fontSize: "2rem", fontWeight: "bold" }}
+      >
+        MOVIE SEATS
+      </h1>
       <div
         className="container"
         style={{
@@ -34,6 +39,7 @@ export default function Main() {
           background: "rgba(128, 128, 128, 0.7)",
           borderRadius: "10px",
           padding: "20px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
         }}
       >
         <h5 className="text-warning mb-3">
@@ -46,7 +52,7 @@ export default function Main() {
                 height: "15px",
                 width: "15px",
                 marginRight: "10px",
-                verticalAlign: ".1px",
+                verticalAlign: "middle",
               }}
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6zIYlwKXtRLMAtDXTzcIbgEoN2SCXZH_kT_1KLuqBm3QdBw_9ZmmbVcuam6bsIOs_tes&usqp=CAU"
               alt=""
@@ -59,7 +65,7 @@ export default function Main() {
                 height: "15px",
                 width: "15px",
                 marginRight: "5px",
-                verticalAlign: ".1px",
+                verticalAlign: "middle",
               }}
               src="https://e7.pngegg.com/pngimages/329/173/png-clipart-red-computer-icons-square-s-angle-color-thumbnail.png"
               alt=""
@@ -72,7 +78,7 @@ export default function Main() {
                 height: "15px",
                 width: "15px",
                 marginRight: "5px",
-                verticalAlign: ".1px",
+                verticalAlign: "middle",
               }}
               src="https://printgo.vn/uploads/media/792227/cac-loai-mau-xanh-2_1624333127.jpg"
               alt=""
@@ -84,7 +90,11 @@ export default function Main() {
         <div>
           <SeatList seats={data} />
         </div>
-        <button className="btn btn-dark mt-3" onClick={handleBook}>
+        <button
+          className="btn btn-dark mt-3"
+          onClick={handleBook}
+          style={{ width: "100%" }}
+        >
           Book Tickets
         </button>
 

@@ -31,7 +31,7 @@ export default function Tickets() {
                   className="btn btn-danger"
                   onClick={() => handleDelete(seat.soGhe)}
                 >
-                  Delete
+                  X
                 </button>
               </td>
             </tr>
