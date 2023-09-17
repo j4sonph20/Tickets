@@ -1,0 +1,43 @@
+[
+    {
+      "loaihang": "loaihang 1",
+      "mancc": "mancc 1",
+      "tensp": "tensp 1",
+      "size": "size 1",
+      "color": "color 1",
+      "dvt": "dvt 1",
+      "nganhhang": "nganhhang 1",
+      "id": "1"
+    },
+    {
+      "loaihang": "loaihang 2",
+      "mancc": "mancc 2",
+      "tensp": "tensp 2",
+      "size": "size 2",
+      "color": "color 2",
+      "dvt": "dvt 2",
+      "nganhhang": "nganhhang 2",
+      "id": "2"
+    },
+    {
+      "loaihang": "loaihang 3",
+      "mancc": "mancc 3",
+      "tensp": "tensp 3",
+      "size": "size 3",
+      "color": "color 3",
+      "dvt": "dvt 3",
+      "nganhhang": "nganhhang 3",
+      "id": "3"
+    },
+
+    {
+      "loaihang": "loaihang 4",
+      "mancc": "mancc 4",
+      "tensp": "tensp 4",
+      "size": "size 4",
+      "color": "color 4",
+      "dvt": "dvt 4",
+      "nganhhang": "nganhhang 4",
+      "id": "4"
+    }
+  ]
